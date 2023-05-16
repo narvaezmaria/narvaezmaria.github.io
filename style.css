@@ -1,3 +1,43 @@
 body {
-    background-color:hotpink;
+    background-color:rgb(172, 158, 96)
 }
+nav-link {color:black;}
+
+
+.container {  display: grid;
+    grid-template-columns: 0.7fr 2.9fr 0.7fr;
+    grid-template-rows: 9.2fr 0.1fr 40.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .gif1 { grid-area: 1 / 1 / 2 / 2; }
+  
+  .gif2 { grid-area: 1 / 3 / 2 / 4; }
+  
+  .header { grid-area: 1 / 2 / 2 / 3; font-family: lucida handwriting; text-align: center; }
+  
+  .myname { grid-area: 1 / 2 / 2 / 3; }
+  
+  .linksarea { grid-area: 3 / 1 / 4 / 2; }
+  
+  .pictures {  display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 3 / 3 / 4 / 4;
+  }
+  
+  .books { grid-area: 1 / 1 / 2 / 2; }
+  .resize {width: 250px; height:200px;}
+  
+  .games { grid-area: 2 / 1 / 3 / 2; }
+  
+  .quote { grid-area: 3 / 1 / 4 / 2; }
+  
+  .aboutme { grid-area: 3 / 2 / 4 / 3; text-align: center; }
+
+  h3 {font-family: lucida handwriting;}
+  
+  
