@@ -1,6 +1,9 @@
 body {
-    background-color:rgb(172, 158, 96)
+    background-color:rgb(172, 158, 96); 
+    background-image: url("fall.gif"); 
+    background-size:cover;
 }
+
 nav-link {color:black;}
 
 
@@ -40,7 +43,15 @@ nav-link {color:black;}
   
   .aboutme { grid-area: 3 / 2 / 4 / 3; text-align: center; }
 
-  h3 {font-family: lucida handwriting;}
+  h1 {font-family: lucida handwriting;color:white;}
+  h3 {font-family: lucida handwriting;color: white;}
+  h5 {font-family: lucida handwriting;color:white;}
   
-  button {color:rgb(110, 68, 20); background-color:rgb(199, 253, 208); border-color: white; border-radius: 8px;
+  button {color:rgb(0, 0, 0); 
+    background-color:rgb(236, 164, 7); 
+    border-color: rgb(255, 255, 255); 
+    border-radius: 8px;
+    font-family:lucida handwriting;
+    font-weight:600;
+    padding: 5px;
 }
