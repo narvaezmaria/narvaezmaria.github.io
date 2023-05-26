@@ -1,6 +1,6 @@
 body {
     background-color:rgb(172, 158, 96); 
-    background-image: url("fall.gif");
+    background-image: url("fall.gif"); 
     background-size:cover;
 }
 
@@ -44,8 +44,10 @@ nav-link {color:black;}
   .aboutme { grid-area: 3 / 2 / 4 / 3; text-align: center; }
 
   h1 {font-family: lucida handwriting;color:white;}
+  h2 {font-family: lucida handwriting;color:white;}
   h3 {font-family: lucida handwriting;color: white;}
-  h5 {font-family: lucida handwriting;color:white;}
+  h4 {font-family: lucida handwriting;color:white;}
+  h5 {font-family: lucida handwriting;color: white;}
   
   button {color:rgb(0, 0, 0); 
     background-color:rgb(236, 164, 7); 
